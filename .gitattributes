@@ -1,0 +1,11 @@
+# 1. Mark Frontend as "Vendored" (Ignored from stats)
+frontend/** linguist-vendored
+frontend/src/components/ui/** linguist-vendored
+
+# 2. Or, Mark specific files as "Generated"
+*.json linguist-generated
+*.lock linguist-generated
+package-lock.json linguist-generated
+
+# 3. Force Python to be the primary language
+backend/** linguist-language=Python

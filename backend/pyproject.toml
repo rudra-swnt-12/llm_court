@@ -1,0 +1,22 @@
+[project]
+name = "llm-court"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.17.2",
+    "fastembed>=0.7.3",
+    "httpx>=0.28.1",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.1.1",
+    "langchain-groq>=1.1.0",
+    "langgraph>=1.0.4",
+    "pgvector>=0.4.2",
+    "psycopg2-binary>=2.9.11",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.12.0",
+    "python-dotenv>=1.2.1",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.38.0",
+]
